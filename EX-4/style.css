@@ -1,0 +1,103 @@
+body {
+  padding-top: 10%;
+  background: #080808;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container div {
+  text-align: center;
+  font-weight: lighter;
+  font-family: "Poppins", sans-serif;
+}
+
+.container div section {
+  margin-top: 0;
+  line-height: 0;
+  color: #c7c7c5;
+}
+
+.card {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #1a1a1a;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+#engagement {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+
+}
+
+.engagement-item {
+  text-align: center;
+}
+
+.engagement-item h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.engagement-item p {
+  line-height: 0;
+  font-size: 1.2em;
+}
+
+#about p {
+  width: 350px;
+}
+
+#about a {
+  color: #fff;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+#about a:hover {
+  color: #ff004f;
+}
+
+#about i {
+  transition: color 0.3s ease;
+}
+
+#about a:hover i {
+  color: #ff004f;
+}
+
+#contact {
+  padding-top: 30px;
+}
+
+#contact a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #ff004f;
+  border-color: #ff004f;
+}

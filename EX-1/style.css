@@ -1,0 +1,31 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+button {
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border:none;
+}
+div{
+    background-color:#fff;
+    border-radius:10px;
+    /* border:10px */
+    margin: 30px 100px 30px 100px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bt1{
+    color:#fff;
+    background-color:#2bad82;
+}
+#bt2{
+    color:#000;
+    background-color: #d1b83d;
+}
+#bt3{
+    color: #fff;
+    background-color:#501769;
+}

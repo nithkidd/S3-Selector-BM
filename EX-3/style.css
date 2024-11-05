@@ -1,0 +1,19 @@
+/* TODO */
+body{
+    text-align: center;
+}
+button{
+    background-color: #cc7dd1;
+    border: 8px solid #ab6ab0 ;
+    height:10vw;
+    width:20%;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Poppin',sans-serif;
+    font-weight: bold;
+    color:#fff;
+}
+button:hover{
+    background-color: #773c7a;
+    border: 8px solid #503352;
+}
